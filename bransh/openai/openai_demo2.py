@@ -5,7 +5,7 @@ os.environ["http_proxy"] = "http://localhost:7890"
 os.environ["https_proxy"] = "http://localhost:7890"
 
 # Replace 'your-api-key' with your actual OpenAI API key
-openai.api_key = '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'
+openai.api_key = ''
 
 response = openai.ChatCompletion.create(
   model="gpt-3.5-turbo",

@@ -10,7 +10,7 @@ from dotenv import load_dotenv, find_dotenv
 
 _ = load_dotenv(find_dotenv())  # 读取本地 .env 文件，里面定义了 OPENAI_API_KEY
 
-openai.api_key = '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'
+openai.api_key = ''
 print(openai.api_key)
 
 
